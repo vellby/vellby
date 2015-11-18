@@ -131,6 +131,20 @@ a:focus {
     }
 }
 
+.about {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(/img/artboard24.png) no-repeat bottom center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 .intro {
     display: table;
     width: 100%;
